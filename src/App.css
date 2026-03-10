@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input[type="text"] {
+  /* adding space between the input text field and buttons */
+  margin: 1em;
+}
+
+input[type="text"]:focus {
+  /* adds a background to indicate that the input is selected */
+  background-color: rgb(241, 126, 170);
+}
+
+input[type="text"]:hover {
+  /* grows when mouse hovers over for interest */
+  transform: scale(1.25);
+}
+
+button {
+  /* adding space between the two buttons */
+  margin: 0.5em;
+}
+
+button:hover {
+  /* grows & changes color when mouse hovers over for interes */
+  transform: scale(1.25);
+  background-color: rgb(241, 126, 170);
+}
+
+h1 {
+  /* bit of visual flair */
+  text-shadow: rgb(241, 126, 170) 2px 3px ;
+}
+
+h1:hover {
+  /* grows when mouse hovers over for interest */
+  transform: scale(1.25);
+}
+
+img:hover {
+  /* grows when mouse hovers over for interest */
+  transform: scale(1.25);
+}

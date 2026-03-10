@@ -1,0 +1,26 @@
+/* flex styling for the container holding the gif images */
+.gifsContainer {
+  /* using flex to have items arranged in a pleasing way automatically */
+  display: flex;
+  /* displaying as a row that wraps items when overflowing */
+  flex-flow: row wrap;
+  /* spacing between the items evenly on the main axis */
+  justify-content: center;
+  /* centering items on the cross axis */
+  align-content: space-between;
+  /* centers items inside of container */
+  align-items: center;
+  /* adding some padding between each element */
+  padding: 0.25em;
+  /* constricting the container so whole page is not taken up - same dimensions for height and width */
+  width: 75vw;
+  height: 75vh;
+  /* making sure a scrollbar appears to give user option to scroll container */
+  overflow-y: scroll;
+}
+
+.gifImage {
+  /* adding some padding between elements and restricting their size so they don't overtake the columns */
+  padding: 0.25em;
+  height: 40%
+}
